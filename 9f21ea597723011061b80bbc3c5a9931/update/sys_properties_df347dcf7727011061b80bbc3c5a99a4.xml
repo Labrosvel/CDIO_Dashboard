@@ -12,7 +12,7 @@
         <sys_created_on>2022-05-23 11:35:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>df347dcf7727011061b80bbc3c5a99a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>sn_ciodashboard.CIODashboardTab3Details</sys_name>
         <sys_package display_value="CIO Dashboard" source="sn_ciodashboard">9f21ea597723011061b80bbc3c5a9931</sys_package>
         <sys_policy/>
@@ -20,19 +20,27 @@
         <sys_scope display_value="CIO Dashboard">9f21ea597723011061b80bbc3c5a9931</sys_scope>
         <sys_update_name>sys_properties_df347dcf7727011061b80bbc3c5a99a4</sys_update_name>
         <sys_updated_by>VelentL</sys_updated_by>
-        <sys_updated_on>2023-11-22 14:43:50</sys_updated_on>
+        <sys_updated_on>2023-11-24 14:18:41</sys_updated_on>
         <type>string</type>
         <value>{&#13;
 "verticalAName": "Reliability Metrics",&#13;
 "verticalAQuestion":"TBD" ,&#13;
+"verticalAMetrics": [ {"metricLabel1":"MTTR", "metricLabel2": "Change Failure Rate" } ] ,&#13;
+"verticalAMetricsdefinition": [ {"metric1": "Mean Time to Repair: How long it takes an organization to recover from a failure in production " , "metric2": "Change Failure rate: The percentage of deployments causing a failure in production"  } ],&#13;
 "verticalBName": "Stability Metrics",&#13;
 "verticalBQuestion":"TBD" ,&#13;
+"verticalBMetrics": [ {"metricLabel1":"Response Time of Service", "metricLabel2": "Availability" } ] ,&#13;
+"verticalBMetricsdefinition": [ {"metric1": "Response time of Service: This is a measure of how quickly a control system responds to changes in input signals" , "metric2": "Availability: The uptime of service taking into consideration scheduled downtime from changes and also Major Incidents"  } ],&#13;
 "verticalCName": "Speed Metrics",&#13;
 "verticalCQuestion":"TBD" ,&#13;
-"verticalDName": "CMDB",&#13;
+"verticalCMetrics": [ {"metricLabel1":"Lead Time for Changes", "metricLabel2": "Deployment Frequency" } ] ,&#13;
+"verticalCMetricsdefinition": [ {"metric1": "Lead Time for Changes: The amount of time it takes a commit to get into production" , "metric2": "Deployment frequency: How often feature changes are made on the specific product (view of the backlog and associated categories)"  } ],&#13;
+"verticalDName": "Product Delivery Performance",&#13;
 "verticalDQuestion":"How is the health of cloud infrastructure?" ,&#13;
-"verticalEName": "Product Delivery Performance",&#13;
-"verticalEQuestion":"TBD" &#13;
+"verticalDMetrics": [ {"metricLabel1":"Customer Experience", "metricLabel2": "Burndown Rate" } ] ,&#13;
+"verticalDMetricsdefinition": [ {"metric1": "Customer Experience: A measure which highlights the performance of a product from the customer perspective – we may need a tool like Nexthink that can auto measure this metric" , "metric2": "Burndown Rate: Shows the trend of completed and remaining work over a specified time period. Burn rate provides calculations of the completed and required rate of work based on the specified time period"  } ],&#13;
+"verticalEName": "Hardware &amp; Software Asset Management",&#13;
+"verticalEQuestion":"Status of Hardware and Software Assets" &#13;
 }</value>
         <write_roles/>
     </sys_properties>
