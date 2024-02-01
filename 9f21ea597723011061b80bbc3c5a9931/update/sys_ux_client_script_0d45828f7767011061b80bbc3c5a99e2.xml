@@ -36,7 +36,7 @@ function handler({
             "sourceType": "indicator",
             "uuid": {
                 "indicator": indicator,
-                "breakdowns": breakdown
+                "breakdowns": []
             },
             "id": "tab3datasourceID_VCSM2"
         }],
@@ -69,7 +69,7 @@ function handler({
         <sys_created_on>2022-05-23 12:46:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0d45828f7767011061b80bbc3c5a99e2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>tab3showVerticalCSupportingMetric2Chart</sys_name>
         <sys_package display_value="CIO Dashboard" source="sn_ciodashboard">9f21ea597723011061b80bbc3c5a9931</sys_package>
         <sys_policy/>
@@ -77,7 +77,7 @@ function handler({
         <sys_scope display_value="CIO Dashboard">9f21ea597723011061b80bbc3c5a9931</sys_scope>
         <sys_update_name>sys_ux_client_script_0d45828f7767011061b80bbc3c5a99e2</sys_update_name>
         <sys_updated_by>VelentL</sys_updated_by>
-        <sys_updated_on>2023-12-13 10:58:42</sys_updated_on>
+        <sys_updated_on>2024-01-31 09:36:36</sys_updated_on>
         <target/>
         <type>default</type>
     </sys_ux_client_script>
@@ -89,10 +89,10 @@ function handler({
         <previous_claim_name>CIO Dashboard</previous_claim_name>
         <previous_claim_scope>9f21ea597723011061b80bbc3c5a9931</previous_claim_scope>
         <sys_created_by>VelentL</sys_created_by>
-        <sys_created_on>2024-01-18 12:42:06</sys_created_on>
-        <sys_id>420ea5f51bb735d4dba1c3e5464bcb27</sys_id>
+        <sys_created_on>2024-01-24 10:41:23</sys_created_on>
+        <sys_id>54fb047f1bb77d9464122144b24bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>VelentL</sys_updated_by>
-        <sys_updated_on>2024-01-18 12:42:06</sys_updated_on>
+        <sys_updated_on>2024-01-24 10:41:23</sys_updated_on>
     </sys_claim>
 </record_update>
